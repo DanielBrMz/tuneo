@@ -1,0 +1,5 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+  # Note: Rust and Python services are NOT pnpm workspaces
+  # They are managed by their respective package managers
