@@ -1,0 +1,32 @@
+{
+  "name": "tuneo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tuneo - Next-generation high-fidelity music discovery platform",
+  "packageManager": "pnpm@9.4.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "build:rust": "cd services/rust-audio-engine && cargo build --release",
+    "build:python": "cd services/python-ml-trainer && python -m pip install -r requirements.txt",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "rust:dev": "cd services/rust-audio-engine && cargo run",
+    "rust:test": "cd services/rust-audio-engine && cargo test",
+    "python:train": "cd services/python-ml-trainer && source venv/bin/activate && python src/train.py",
+    "python:install": "cd services/python-ml-trainer && python -m pip install -r requirements.txt"
+  },
+  "devDependencies": {
+    "@turbo/gen": "^2.2.3",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "turbo": "^2.2.3",
+    "typescript": "^5.6.3"
+  }
+}
