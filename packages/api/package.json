@@ -1,0 +1,19 @@
+{
+  "name": "@tuneo/api",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "scripts": {
+    "lint": "eslint .",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@trpc/server": "^11.0.0-rc.477",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "eslint": "^8.57.0"
+  }
+}
