@@ -36,7 +36,7 @@ Music deserves to be heard exactly as the artist intended. No compromises.
 Stop getting the same recommendations as everyone else. Our discovery engine understands your unique taste and introduces you to artists you'll actually love.
 
 - **Deep Taste Understanding** - Advanced analysis that goes far beyond simple genre matching
-- **Niche Artist Discovery** - Uncover hidden gems like Cuarteto de Nos, Rupatrupa, and countless artists you never knew existed
+- **Niche Artist Discovery** - Uncover hidden gems like Matt Elliott, The Butlers and countless artists you never knew existed
 - **Context-Aware Recommendations** - Suggestions tailored to your mood, time of day, and current activity
 - **Anti-Mainstream Algorithm** - Specifically designed to break you out of filter bubbles
 - **Global Listening Networks** - Learn from listeners with similar taste profiles around the world
